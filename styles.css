@@ -157,3 +157,29 @@ thead {
     font-family: Verdana, sans-serif;
     font-size: 14px;
 }
+
+.contactForm {
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    font-style: bold;
+    align-content: center;
+    text-align: left;
+    padding: 10px;
+
+
+}
+
+.button {
+    width: 60px;
+    height: 25px;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    line-height: 0px;
+}
+
+.radio {
+    font-size: 10px;
+    padding: 10px;
+}

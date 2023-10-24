@@ -24,25 +24,26 @@
         <div id="container">
             <div id="main">
                 <h2>Contact Me</h2>
-                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post" class="contactForm">
                     <label class="contact" for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Name" required><br>
+                    <input type="text" id="name" name="name" placeholder="Name" required><br><br>
                     
                     <label class="contact" for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="xxx@gonzaga.edu" required><br>
+                    <input type="email" id="email" name="email" placeholder="xxx@gonzaga.edu" required><br><br>
                     
                     <label class="contact" for="message">Message: </label>
-                    <textarea id="message" name="message" placeholder="Your Message Here" rows="5" required></textarea><br>
+                    <textarea id="message" name="message" placeholder="Your Message Here" rows="5" required></textarea><br><br>
 
-                    <input type="submit" value="Submit">   
-
-                    <label>Preference:</label>
-                    <input type="radio" name="preference" value="Option 1" id="opt1" required>
-                    <label for="opt1">Option 1</label>
-                    <input type="radio" name="preference" value="Option 2" id="opt2" required>
-                    <label for="opt2">Option 2</label>
-                    <input type="radio" name="preference" value="Option 3" id="opt3" required>
-                    <label for="opt3">Option 3</label>
+                    <input type="submit" value="Submit" class="button"><br><br> 
+                    <div class="radio">
+                        <label>Radio Button:</label><br><br>
+                        <input type="radio" name="preference" value="Option 1" id="opt1" required>
+                        <label for="opt1">1</label><br><br> 
+                        <input type="radio" name="preference" value="Option 2" id="opt2" required>
+                        <label for="opt2">2</label><br><br> 
+                        <input type="radio" name="preference" value="Option 3" id="opt3" required>
+                        <label for="opt3">3</label><br><br> 
+                    </div>
                 </form>
             </div>
             <div id="aside">
@@ -55,5 +56,5 @@
         </div>
     </body>
 
-    <!-- GitHub Pages Deployment: https://github.com/yuyukao2002/CPSC332-Midterm.git -->
+    <!-- GitHub Repository: https://github.com/yuyukao2002/CPSC332-Midterm.git -->
 </html>
