@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Web Page</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1 class="textlogo">Pancake De Lira</h1>
+            <h2>Web Developer & Best Guinea Pig</h2>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+            </ul>
+        </div>
+
+        <div id="container">
+            <div id="main">
+                <img src="pancake-profile.png" alt="Pancake’s Profile Picture" class="profile">
+                <h3>Hi! I’m Pancake</h3>
+                <p>I have almost 5 years of experience of being a guinea pig, but 0 years of experience web developing. However, I am very confident 
+                    that I can do a very good job at creating a website as long as my mom can do all the work for me. As a guinea pig, I am an avid 
+                    and professional eater of lettuce, producer of intricate hay nests and hideouts, and the loudest wheeker in Pullman, WA. My wheeks 
+                    are so loud, I scare my mom at 3 a.m. in the morning. That should tell you, I'm good at what I do as a guinea pig.
+                    <span class="sm-emphasis">I'm good at what I do as a guinea pig.</span><br><br><br>
+                    <span class="emphasis">I may not know what to do if you needed a full stack website, but I know I'm the best guinea pig.</span>
+                </p>
+            </div>
+
+            <div id="aside">
+
+            </div>
+        </div>
+
+        <script>
+            function evenCountdown(eNum) {
+                for (let i = 1; i <= eNum; i++) {
+                    console.log(i);
+                }
+            }
+            const userInput = prompt("Enter a number:");
+            const userNumber = parseInt(userInput);
+
+            if (isNaN(userNumber)) {
+                console.log("Invalid input. Please enter a valid number.");
+            } else if (userNumber % 2 === 0) {
+                evenCountdown(userNumber);
+            } else {
+                console.log("This is an odd number");
+            }
+        </script>
+    </body>
+    
+    <!-- A valid IPv4 address: 192.168.1.1 -->
+    <!--
+    Flow of HTTP Requests and Responses for about.html on breakfastcavies.com:
+
+    1. User's Browser Does a DNS Lookup (resolve the domain "breakfastcavies.com" to its corresponding IP address.)
+
+    2. TCP Connection Establishment (TCP connection to the web server associated with the IP address.)
+
+    3. HTTP Request for about.html (web browser sends an HTTP request asking for the resource about.html.) 
+
+    4. HTTP Response for about.html (web server returns the contents of about.html to the browser in an HTTP response.)
+
+    5. Browser Parses and Displays "about.html" (browser parses the HTML and sends a second HTTP request for next content, and then web server returns the content to the browser in an HTTP response)
+
+    6. TCP connection closed (no more resources are needed, the browser closes the TCP connection.)
+    -->
+</html>
